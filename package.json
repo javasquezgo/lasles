@@ -1,0 +1,23 @@
+{
+  "name": "lasles",
+  "version": "1.0.0",
+  "description": "Proyect about a fake VPN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javasquezgo/lasles.git"
+  },
+  "keywords": [
+    "lasles",
+    "vpn"
+  ],
+  "author": "Alejandro Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javasquezgo/lasles/issues"
+  },
+  "homepage": "https://github.com/javasquezgo/lasles#readme"
+}
