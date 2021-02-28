@@ -26,7 +26,6 @@ header {
 }
 
 .container {
-  border: 1px solid black;
   width: 1400px;
   margin: 0 auto;
   height: auto;
@@ -177,6 +176,7 @@ header {
 .hero {
   margin-top: 107px;
   flex-wrap: wrap;
+  padding-bottom: 150px;
 }
 
 .hero .container {
@@ -242,6 +242,7 @@ header {
   font-size: 3.5rem;
   line-height: 5rem;
   color: #0b132a;
+  padding-top: 90px;
 }
 
 .plan .container p {
@@ -255,6 +256,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
+    margin-bottom: 160px;
 }
 
 .choosed-plan {
@@ -295,20 +297,20 @@ header {
   display: flex;
   text-align: left;
   margin-bottom: 20px;
-  
 }
 
 .choosed-plan ul li i {
   color: green;
 }
 
-.choosed-plan h2{
+.plan .choosed-plan h2{
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 3rem;
     color: #0b132a;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 20px;
+    height: auto;
 }
 
 .choosed-plan h2 span{
@@ -331,6 +333,10 @@ header {
     border-radius: 50px;
 }
 
+.global{
+  background-color: #fbfbfb;
+}
+
 .global .container{
   text-align: center;
 }
@@ -342,7 +348,6 @@ header {
     color: #0b132a;
     width: 22.5vw;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .global .container p{
@@ -375,6 +380,180 @@ header {
   height: 90px;
 }
 
+.testimonial{
+  background-color: #fbfbfb;
+  padding-bottom: 100px;
+}
+
+.testimonial .container{
+  text-align: center;
+  padding-top: 124px;
+}
+
+.testimonial .container h2{
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  color: #0b132a;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.testimonial .container p{
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #4f5665;
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.testimonial-div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 300px;
+}
+
+.testimonial-card{
+  width: 400px;
+  height: 230px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-up{
+  display: flex;
+  height: 25%;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.testimonial-card .card-up p{
+  color: #0b132a;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.testimonial-card .card-up p span{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: #4f5665;
+}
+
+.card-up img{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.card-up__span{
+  background-image: url("../img/star.svg");
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.testimonial-card .card-down p{
+  width: 85%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #0b132a;
+  margin: 0 auto;
+}
+
 footer {
-  margin-top: 1000px;
+  position: relative;
+  height: auto;
+  background-color: #f8f8f8;
+}
+
+.footer-div{
+  padding-top: 180px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-over{
+  width: 1400px;
+  height: 233px;
+  background-color: white;
+  position: absolute;
+  bottom: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.over-text h2{
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: #0b132a;
+  width: 21vw;
+}
+
+.over-text p{
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #4f5665;
+  margin-top: 5px;
+}
+
+.footer-over .footer-over__span{
+  padding: 30px 125px;
+  background-color: #f53855;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  box-shadow: 1px 29px 19px -13px rgba(245,56,56,0.43);
+}
+
+.footer-social p{
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #4f5665;
+  width: 19vw;
+  margin: 25px 0;
+}
+
+.footer-div-social span{ 
+  margin-right: 10px;
+  color: #f53855;
+}
+
+.footer-list p{
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.footer-list ul li{
+  margin-bottom: 10px;
+}
+
+.footer-list ul li a span{
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #4f5665;
 }
