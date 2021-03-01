@@ -124,13 +124,13 @@ header {
   max-width: 611px;
   max-height: 382px;
   width: 100%;
-  height: 100%;
-  min-width: 288px;
-  min-height: 320px;
+  height: 75%;
+  min-width: 150px;
+  min-height: 288px;
 }
 
 .header-table {
-  height: 200px;
+  height: 20rem;
   margin-top: 104px;
   display: flex;
   justify-content: space-around;
@@ -252,11 +252,11 @@ header {
   color: #4f5665;
 }
 
-.choose-plan{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 60px;
-    margin-bottom: 160px;
+.choose-plan {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 160px;
 }
 
 .choosed-plan {
@@ -280,7 +280,7 @@ header {
   font-size: 1.8rem;
   line-height: 3rem;
   color: #0b132a;
-  margin: 30px 0;  
+  margin: 30px 0;
 }
 
 .choosed-plan ul {
@@ -303,54 +303,54 @@ header {
   color: green;
 }
 
-.plan .choosed-plan h2{
-    font-weight: 500;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    color: #0b132a;
-    padding-top: 50px;
-    margin-bottom: 20px;
-    height: auto;
+.plan .choosed-plan h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #0b132a;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  height: auto;
 }
 
-.choosed-plan h2 span{
+.choosed-plan h2 span {
   font-weight: 400;
   color: #4f5665;
 }
 
-.choosed-plan a{
-    margin-top: 200px;
-    margin-bottom: 50px;
+.choosed-plan a {
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 
-.choosed-plan .choosed-plan__span{
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    color: #f53855;
-    padding: 13px 62px;
-    border: 2px solid #f53855;
-    border-radius: 50px;
+.choosed-plan .choosed-plan__span {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  color: #f53855;
+  padding: 13px 62px;
+  border: 2px solid #f53855;
+  border-radius: 50px;
 }
 
-.global{
+.global {
   background-color: #fbfbfb;
 }
 
-.global .container{
+.global .container {
   text-align: center;
 }
 
-.global .container h2{
-    font-weight: 500;
-    font-size: 3.5rem;
-    line-height: 5rem;
-    color: #0b132a;
-    width: 22.5vw;
-    margin: 0 auto;
+.global .container h2 {
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  color: #0b132a;
+  width: 22.5vw;
+  margin: 0 auto;
 }
 
-.global .container p{
+.global .container p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3rem;
@@ -361,36 +361,36 @@ header {
   margin-bottom: 155px;
 }
 
-.global .container img{
+.global .container img {
   max-width: 1060px;
   max-height: 537px;
   width: 75%;
   height: 80%;
 }
 
-.global-social{
+.global-social {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 109px;
 }
 
-.global .container .global-social .social-media{
+.global .container .global-social .social-media {
   width: 220px;
   height: 90px;
 }
 
-.testimonial{
+.testimonial {
   background-color: #fbfbfb;
   padding-bottom: 100px;
 }
 
-.testimonial .container{
+.testimonial .container {
   text-align: center;
   padding-top: 124px;
 }
 
-.testimonial .container h2{
+.testimonial .container h2 {
   font-weight: 500;
   font-size: 3.5rem;
   line-height: 5rem;
@@ -399,7 +399,7 @@ header {
   margin: 0 auto;
 }
 
-.testimonial .container p{
+.testimonial .container p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3rem;
@@ -410,20 +410,20 @@ header {
   margin-bottom: 60px;
 }
 
-.testimonial-div{
+.testimonial-div {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 300px;
 }
 
-.testimonial-card{
+.testimonial-card {
   width: 400px;
   height: 230px;
   border-radius: 10px;
   background-color: white;
 }
 
-.card-up{
+.card-up {
   display: flex;
   height: 25%;
   align-items: center;
@@ -431,7 +431,7 @@ header {
   margin-top: 20px;
 }
 
-.testimonial-card .card-up p{
+.testimonial-card .card-up p {
   color: #0b132a;
   text-align: left;
   font-weight: 500;
@@ -439,21 +439,21 @@ header {
   line-height: 3rem;
 }
 
-.testimonial-card .card-up p span{
+.testimonial-card .card-up p span {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 3rem;
   color: #4f5665;
 }
 
-.card-up img{
+.card-up img {
   height: 50px;
   width: 50px;
   margin-bottom: 40px;
   margin-right: 20px;
 }
 
-.card-up__span{
+.card-up__span {
   background-image: url("../img/star.svg");
   display: inline-block;
   width: 15px;
@@ -464,8 +464,7 @@ header {
   background-repeat: no-repeat;
 }
 
-
-.testimonial-card .card-down p{
+.testimonial-card .card-down p {
   width: 85%;
   font-weight: 400;
   font-size: 1.6rem;
@@ -480,14 +479,14 @@ footer {
   background-color: #f8f8f8;
 }
 
-.footer-div{
+.footer-div {
   padding-top: 180px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-footer .footer-over{
+footer .footer-over {
   width: 1400px;
   height: 233px;
   background-color: white;
@@ -498,7 +497,7 @@ footer .footer-over{
   align-items: center;
 }
 
-.over-text h2{
+.over-text h2 {
   font-weight: 500;
   font-size: 3.5rem;
   line-height: 4.5rem;
@@ -506,7 +505,7 @@ footer .footer-over{
   width: 21vw;
 }
 
-.over-text p{
+.over-text p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3rem;
@@ -514,7 +513,7 @@ footer .footer-over{
   margin-top: 5px;
 }
 
-.footer-over .footer-over__span{
+.footer-over .footer-over__span {
   padding: 30px 125px;
   background-color: #f53855;
   color: white;
@@ -522,10 +521,10 @@ footer .footer-over{
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2.5rem;
-  box-shadow: 1px 29px 19px -13px rgba(245,56,56,0.43);
+  box-shadow: 1px 29px 19px -13px rgba(245, 56, 56, 0.43);
 }
 
-.footer-social p{
+.footer-social p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3rem;
@@ -534,12 +533,12 @@ footer .footer-over{
   margin: 25px 0;
 }
 
-.footer-div-social span{ 
+.footer-div-social span {
   margin-right: 10px;
   color: #f53855;
 }
 
-.footer-list p{
+.footer-list p {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 3rem;
@@ -547,13 +546,86 @@ footer .footer-over{
   margin-bottom: 20px;
 }
 
-.footer-list ul li{
+.footer-list ul li {
   margin-bottom: 10px;
 }
 
-.footer-list ul li a span{
+.footer-list ul li a span {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3rem;
   color: #4f5665;
+}
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:768px){
+  header{
+    height: auto;
+  }
+
+  .header-menu{
+    flex-direction: column;
+  }
+
+  .header-menu nav ul{
+    display: block;
+    margin: 20px auto;
+  }
+
+  .header-menu nav ul li{
+    margin: 15px 0;
+  }
+
+  .header-menu-buttons{
+    margin-top: 25px;
+  }
+
+  .header-information{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-information div{
+    height: auto;
+  }
+
+  .header-information div h1{
+      width: 80vw;
+      text-align: center;
+  }
+
+  .header-information div p{
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: 80vw;
+  }
+
+  .header-information img{
+    margin-top: 150px;
+  }
+
+  .header-table{
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto;
+    height: auto;
+    width: 50%;
+  }
+
+  .table-data{
+    margin: 20px auto;
+    width: 193px;
+  }
+
+}
+
+@media screen and (max-width:480px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
