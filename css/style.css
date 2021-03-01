@@ -262,7 +262,7 @@ header {
 }
 
 .choosed-plan {
-  width: 330px;
+  width: 310px;
   height: 780px;
   background-color: white;
   border: 2px solid #ddd;
@@ -337,6 +337,8 @@ header {
 
 .global {
   background-color: #fbfbfb;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .global .container {
@@ -366,8 +368,9 @@ header {
 .global .container img {
   max-width: 1060px;
   max-height: 537px;
-  width: 75%;
-  height: 80%;
+  width: 50%;
+  height: 25%;
+
 }
 
 .global-social {
@@ -384,7 +387,8 @@ header {
 
 .testimonial {
   background-color: #fbfbfb;
-  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .testimonial .container {
@@ -415,12 +419,13 @@ header {
 .testimonial-div {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 
 .testimonial-card {
-  width: 400px;
-  height: 230px;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
   border-radius: 10px;
   background-color: white;
 }
@@ -476,9 +481,12 @@ header {
 }
 
 footer {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
   height: auto;
   background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-div {
@@ -489,8 +497,9 @@ footer {
 }
 
 footer .footer-over {
-  width: 1400px;
-  height: 233px;
+  width: auto;
+  max-width: 1400px;
+  height: auto;
   background-color: white;
   position: absolute;
   bottom: 400px;
@@ -646,6 +655,70 @@ footer .footer-over {
     text-align: left;
     margin: 0 auto;
     margin-bottom: 40px;
+  }
+
+  .choose-plan {
+    flex-direction: column;
+  }
+
+  .choosed-plan{
+    margin: 0 auto;
+    margin-bottom: 75px;
+  } 
+
+  .global .container h2{
+    width: 100%;
+  }
+
+  .global .container p{
+    width: 75%;
+  }
+
+  .global .global-social{
+    flex-direction: column;
+    padding-bottom: 100px;
+  }  
+
+  .global .global-social img{
+    padding-bottom: 55px;
+  }
+
+  .testimonial{
+    padding-top: 500px;
+  }
+
+  .testimonial .container h2,
+  .testimonial .container p{
+    width: 75%;
+  }
+
+  .testimonial-div{
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .testimonial-card{
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+
+  footer{
+    position: relative;
+  }
+
+  .footer-div{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  .footer-social p{
+    width: 75vw;
+    margin: 20px auto;
+  }
+
+  .footer-list{
+    margin-bottom: 50px;
   }
 
 }
